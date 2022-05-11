@@ -1,34 +1,26 @@
-**Portfolio**
-Live Preview - [Click Here](https://gportfolio.vercel.app)
+# Information
 
-<br/>
-<div align="center">
-  <img alt="Demo" src="public/mockup.png" />
-</div>
-<br/>
-<br/>
+## Node
 
-# 🛠 Installation and Setup Instructions
+v16.15.0
 
-Clone down this repository. You will need node.js and git installed globally on your machine..
+## Installation 
 
-Installation: `npm install`
+Change the version of nodejs to make it appropriate. Then you must run the commands 'npm install' and 'nmp run start'.
 
-In the project directory, you can run: `npm start`
+The project runs at the following url -> localhost:3000
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+If you want to upload the project to a hosting you must run 'npm build'.
 
-# Usage Instructions
+## Available commands
 
-Open the project folder and Navigate to `/src/data/ProjectData` and add your projects details.
+|  Command | Script  |
+| ------------ | ------------       |
+| "start"  | "react-scripts start"  |
+| "build"  | "react-scripts build"  |
+| "test"   | "react-scripts test"   |
+| "eject"  | "react-scripts eject"  |
 
-You will find all the components used and you can edit your information accordingly.
+## URLS
 
-## Contribute
-
-Pull Requests are welcome. :)
-
-## Show your support
-
-Give a ⭐ if you like this website!
+localhost:3000
