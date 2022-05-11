@@ -23,10 +23,10 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <h1>Hi, I'm YourName</h1>
-            <h5>Frontend Developer</h5>
+            <h1>FASTCODE</h1>
+            <h5>Desarrollador Web</h5>
             <p>
-              I design and code beautifully simple things, and I love what I do.
+             ¿ Necesitas una web a medida ?
             </p>
           </HeroLeft>
           <HeroRight>

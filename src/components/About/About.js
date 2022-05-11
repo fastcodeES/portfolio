@@ -12,23 +12,18 @@ function About() {
   return (
     <ContactWrapper id="about">
       <div className="Container">
-        <div className="SectionTitle">About Me</div>
+        <div className="SectionTitle">Sobre mi</div>
         <div className="BigCard">
           <Image
             src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-            Hello! My name is <strong>Your Name</strong> Lorem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lorem Ipsum has
-            been the industry's standard dummy text ever since the 1500s, when
-            an unknown printer took a galley of type and scrambled it to make a
-            type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially
-            unchanged.
+          Hola, mi nombre es Juan. Soy un desarrollador web, con experiencia de trabajo en equipo. Me gusta resolver problemas, desarrollar mis aptitudes
+          y mejorar mis habilidades técnicas. Por afición a la cibersegurirdad acabe descubriendo un mundo increible en la web.
           </div>
           <div className="AboutBio tagline2">
-            I have become confident using the following technologies.
+            Estás son algunas de las técnologías con las que tengo experiencia
           </div>
           <Technologies>
             {stackList.map((stack, index) => (

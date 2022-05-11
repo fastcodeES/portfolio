@@ -13,19 +13,19 @@ const Header = ({ toggle }) => {
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="projects" smooth={true}>
-            Projects
+            Proyectos
           </NavLink>
           <NavLink className="menu-item" to="about" smooth={true}>
-            About
+            Sobre mi
           </NavLink>
           <NavLink className="menu-item" to="contact" smooth={true}>
-            Contact
+            Contacto
           </NavLink>
         </NavMenu>
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://github.com/gurupawar/"
+            href="https://github.com/fastcodeES/"
             target="_blank"
             rel="noopener noreferrer"
           >

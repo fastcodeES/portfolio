@@ -67,7 +67,7 @@ function Dropdown({ isOpen, toggle }) {
           to="projects"
           smooth={true}
         >
-          Projects
+          Proyectos
         </NavLink>
         <NavLink
           onClick={toggle}
@@ -75,7 +75,7 @@ function Dropdown({ isOpen, toggle }) {
           to="about"
           smooth={true}
         >
-          About
+          Sobre mi 
         </NavLink>
         <NavLink
           onClick={toggle}
@@ -83,7 +83,7 @@ function Dropdown({ isOpen, toggle }) {
           to="contact"
           smooth={true}
         >
-          Contact
+          Contacto
         </NavLink>
       </NavMenu>
       <NavBtn onClick={toggle}>
