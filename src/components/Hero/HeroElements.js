@@ -41,6 +41,8 @@ export const HeroLeft = styled.div`
   align-items: flex-start;
   text-align: left;
   flex: 1;
+  height: 400px;
+  width: auto;
 
   h1 {
     font-size: 2.8rem;
@@ -76,8 +78,8 @@ export const HeroRight = styled.div`
 `;
 
 export const Image = styled.img`
-  height: 300px;
-  width: auto;
+  
+  width: 100vw;
 `;
 
 const ScrollAnimation = keyframes`

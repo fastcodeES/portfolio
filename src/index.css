@@ -16,11 +16,11 @@ body {
 }
 
 main {
-  background: #151418;
-  background-image: url(https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/blob-haikei.svg);
+  background: #f46912;
+  /* background-image: url("./Assets/images/cover.png"); */
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  width: 100vw;
 }
 
 a {

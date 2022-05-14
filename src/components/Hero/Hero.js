@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
+import ImagenHeader from "../../Assets/images/vector/default-monochrome-white.svg"
+
 import {
   HeroContainer,
   HeroWrapper,
@@ -22,16 +24,9 @@ function Hero() {
       <Header toggle={toggle} />
       <HeroContainer>
         <HeroWrapper>
-          <HeroLeft>
-            <h1>FASTCODE</h1>
-            <h5>Desarrollador Web</h5>
-            <p>
-             ¿ Necesitas una web a medida ?
-            </p>
-          </HeroLeft>
           <HeroRight>
             <Image
-              src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/man-svgrepo-com.svg"
+              src={ImagenHeader}
               alt="man-svgrepo"
             />
           </HeroRight>
@@ -42,7 +37,7 @@ function Hero() {
             <img
               src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/scroll-down.svg"
               alt="scroll-down"
-            />
+            /> 
           </ScrollLink>
         </ScrollDown>
       </HeroContainer>

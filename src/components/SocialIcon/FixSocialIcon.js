@@ -36,7 +36,7 @@ function FixSocialIcon() {
       <ul>
         <li className="item">
           <a
-            href="https://www.linkedin.com/in/juanpenalver/"
+            href="https://www.linkedin.com/in/juan-pe%C3%B1alver-sanchez"
             target="_blank"
             rel="noopener noreferrer"
           >

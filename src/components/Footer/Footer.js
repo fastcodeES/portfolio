@@ -24,7 +24,7 @@ function Footer() {
     <FooterSection>
       <div className="Container">
         <span>
-          Juan Peñalver
+          fastcode ®
         </span>
       </div>
     </FooterSection>
