@@ -45,8 +45,15 @@ export const NavMenu = styled.div`
   align-items: center;
   margin-right: -24px;
 
-  .menu-item + .menu-item {
+  .menu-item {
     margin-left: 1rem;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fcbf49;
+  }
+  .menu-item:hover {
+    color: #FFFFFF;
   }
   @media screen and (max-width: 768px) {
     display: none;
@@ -54,9 +61,28 @@ export const NavMenu = styled.div`
 `;
 
 export const NavBtn = styled.nav`
-  display: flex;
-  align-items: center;
-  margin-right: 24px;
+align-items: center;
+margin-right: 24px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
+
+export const ButtonResume = styled.nav`
+  .buttonResume {
+    margin-left: 1rem;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fcbf49;
+    font-size: 1.2rem;
+    background-color: #f77f00;
+  }
+
+  .buttonResume:hover {
+    color: #ffffff;
+  }
 
   @media screen and (max-width: 768px) {
     display: none;

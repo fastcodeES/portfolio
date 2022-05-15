@@ -1,15 +1,26 @@
-import PyectoImagen from '../Assets/images/default.png';
+import ProyectoImagen from '../Assets/images/default.png';
+import ReservandoMurcia from '../Assets/images/proyectsImages/reservandoMurcia.PNG';
+// D:\fastcode\forkProjects\portfolio-react\src\Assets\images\proyectsImages\reservandoMurcia.PNG
+
 
 
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: PyectoImagen,
-    title: "{FASTCODE}",
+    img: ProyectoImagen,
+    title: "FastCode",
     description: "Portafolio, realizado en REACTJS",
     tech_stack: "Html, Css, Javascript, ReactJS",
     github_url: "https://github.com/fastcodeES/portfolio",
     demo_url: "https://fastcode.es",
+  },
+  {
+    img: ReservandoMurcia,
+    title: "Reservando Murcia",
+    description: "Aplicación de reservas horientada a la hostelería",
+    tech_stack: "Html, Css, Javascript, python, Django",
+    github_url: "https://github.com/fastcodeES/portfolio",
+    demo_url: "http://juanpenalver.pythonanywhere.com/",
   }
 ];
 

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
-import ImagenHeader from "../../Assets/images/vector/default-monochrome-white.svg"
+import ImagenHeader from "../../Assets/images/vector/default-monochrome-white.svg";
 
 import {
   HeroContainer,
   HeroWrapper,
-  HeroLeft,
+  // HeroLeft,
   HeroRight,
   Image,
   ScrollDown,
@@ -25,10 +25,7 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroRight>
-            <Image
-              src={ImagenHeader}
-              alt="man-svgrepo"
-            />
+            <Image src={ImagenHeader} alt="man-svgrepo" />
           </HeroRight>
         </HeroWrapper>
         <ScrollDown to="projects">
@@ -37,7 +34,7 @@ function Hero() {
             <img
               src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/scroll-down.svg"
               alt="scroll-down"
-            /> 
+            />
           </ScrollLink>
         </ScrollDown>
       </HeroContainer>

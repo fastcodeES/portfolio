@@ -19,8 +19,9 @@ function About() {
             alt="man-svgrepo"
           />
           <div className="AboutBio">
-          Hola, mi nombre es Juan. Soy un desarrollador web, con experiencia de trabajo en equipo. Me gusta resolver problemas, desarrollar mis aptitudes
+          Hola, mi nombre es Juan. Soy un desarrollador web con experiencia de trabajo en equipo. Me gusta resolver problemas, desarrollar mis aptitudes
           y mejorar mis habilidades técnicas. Por afición a la cibersegurirdad acabe descubriendo un mundo increible en la web.
+          Actualmente me especializo en front-end con React, aunque también he trabajado con algunos frameworks de back-end como Django.
           </div>
           <div className="AboutBio tagline2">
             Estás son algunas de las técnologías con las que tengo experiencia

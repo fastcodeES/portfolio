@@ -1,15 +1,17 @@
 import React from "react";
-import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
+import { Nav, Logo, NavLink, Bars, NavMenu, ButtonResume } from "./HeaderElements";
+import LogoImage from "../../Assets/images/vector/isolated-monochrome-white.svg";
+
+import {
+  Image
+} from "../Hero/HeroElements";
 
 const Header = ({ toggle }) => {
   return (
     <div className="Container">
       <Nav>
         <Logo to="/">
-          <img
-            src="https://raw.githubusercontent.com/gurupawar/website/main/src/Assets/logo.png"
-            alt="logo"
-          />
+          <Image src={LogoImage} alt="man-svgrepo" />
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="projects" smooth={true}>
@@ -22,16 +24,16 @@ const Header = ({ toggle }) => {
             Contacto
           </NavLink>
         </NavMenu>
-        <NavBtn>
+        <ButtonResume>
           <a
-            className="btn PrimaryBtn"
+            className="buttonResume"
             href="https://github.com/fastcodeES/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Resume
           </a>
-        </NavBtn>
+        </ButtonResume>
         <Bars onClick={toggle} />
       </Nav>
     </div>
