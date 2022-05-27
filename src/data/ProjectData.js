@@ -17,7 +17,7 @@ export const ProjectList = [
   {
     img: ReservandoMurcia,
     title: "Reservando Murcia",
-    description: "Aplicación de reservas horientada a la hostelería",
+    description: "Aplicación de reservas orientada a la hostelería",
     tech_stack: "Html, Css, Javascript, python, Django",
     github_url: "https://github.com/fastcodeES/portfolio",
     demo_url: "http://juanpenalver.pythonanywhere.com/",
